@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 str = "Holberton School"
-text = "ALX"
-print(f'{"ALX " * 4 }')
+print(f'{" ".join([str] * 3)}')
+print(str[:9])
